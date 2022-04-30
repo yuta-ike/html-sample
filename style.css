@@ -52,6 +52,10 @@ hr {
 .tab-section {
   display: flex;
   overflow-x: scroll;
+  position: sticky;
+  top: 50px;
+  background: white;
+  border-bottom: 1px solid rgb(219, 219, 219);
 }
 
 .tab-button {
@@ -191,7 +195,7 @@ hr {
 
 .dummy {
   background: linear-gradient(rgb(238, 238, 238), rgb(156, 177, 167));
-  height: 300vh;
+  height: 30vh;
 }
 
 .footer {
