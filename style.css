@@ -12,6 +12,10 @@ hr {
   height: 1px;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 .header {
   position: fixed;
   top: 0;
@@ -31,10 +35,34 @@ hr {
   display: flex;
 }
 
+.search-section {
+  margin-top: 50px;
+  margin-bottom: 12px;
+}
+
+.search-section > input {
+  background: rgb(235, 235, 235);
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  width: 100%;
+  padding: 8px;
+}
+
+.tab-section {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.tab-button {
+  flex-shrink: 0;
+  font-size: 14px;
+  padding: 4px 8px;
+}
+
 .top-section {
   display: flex;
   overflow-x: scroll;
-  margin-top: 50px;
 }
 
 .top-article-box {
