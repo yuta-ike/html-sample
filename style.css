@@ -1,9 +1,15 @@
 body {
-  margin: 4px;
+  margin: 12px;
 }
 
 p, h1, h2, h3, h4, h5, h6 {
   margin: 0;
+}
+
+hr {
+  background-color: rgb(220, 220, 220);
+  border: none;
+  height: 1px;
 }
 
 .section {
@@ -27,14 +33,12 @@ p, h1, h2, h3, h4, h5, h6 {
 .section-header {
   font-weight: 700;
   font-size: 14px;
-  margin-top: 36px;
   margin-bottom: 8px;
 }
 
 .summary {
   display: flex;
   justify-content:space-between;
-  margin-top: 24px;
   padding: 8px;
 }
 
@@ -69,6 +73,51 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .right-area {
   width: 120px;
+}
+
+.ranking {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.ranking-group {
+  flex-shrink: 0;
+}
+
+.ranking-group + .ranking-group {
+  margin-left: 8px;
+}
+
+.ranking-item {
+  display: flex;
+}
+
+.ranking-item + .ranking-item {
+  margin-top: 8px;
+}
+
+.ranking-text {
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+}
+
+.ranking-text > p {
+  max-width: 200px;
+}
+
+.ranking-prefix {
+  display: flex;
+  flex-direction: column;
+  margin: 0 8px;
+  font-weight: 700;
+}
+
+.ranking-item > img {
+  width: 64px;
+  height: 42px;
+  border-radius: 2px;
+  object-fit: cover;
 }
 
 .article-box {
