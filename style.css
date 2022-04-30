@@ -12,6 +12,21 @@ hr {
   height: 1px;
 }
 
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 50px;
+  background: white;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 0 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 .section {
   display: flex;
 }
@@ -19,6 +34,7 @@ hr {
 .top-section {
   display: flex;
   overflow-x: scroll;
+  margin-top: 50px;
 }
 
 .top-article-box {
@@ -143,4 +159,9 @@ hr {
 .provider-name {
   font-size: 10px;
   color: rgb(193, 193, 193);
+}
+
+.dummy {
+  background: linear-gradient(rgb(238, 238, 238), rgb(156, 177, 167));
+  height: 300vh;
 }
