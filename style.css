@@ -31,6 +31,46 @@ p, h1, h2, h3, h4, h5, h6 {
   margin-bottom: 8px;
 }
 
+.summary {
+  display: flex;
+  justify-content:space-between;
+  margin-top: 24px;
+  padding: 8px;
+}
+
+.summary-img {
+  width: 120px;
+  height: 80px;
+  border-radius: 4px;
+}
+
+.summary-img-title {
+  font-size: 12px;
+}
+
+.left-header {
+  display: flex;
+  align-items: center;
+}
+
+.left-news {
+  font-size: 14px;
+  margin-right: 12px;
+}
+
+.left-weather {
+  font-size: 10px;
+}
+
+.left-content > p {
+  margin-top: 8px;
+  font-size: 14px;
+}
+
+.right-area {
+  width: 120px;
+}
+
 .article-box {
   flex: 1;
 }
