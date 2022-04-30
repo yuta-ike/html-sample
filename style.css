@@ -165,3 +165,21 @@ hr {
   background: linear-gradient(rgb(238, 238, 238), rgb(156, 177, 167));
   height: 300vh;
 }
+
+.footer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  background: white;
+  height: 60px;
+}
+
+.footer > div {
+  flex: 1;
+  font-size: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
