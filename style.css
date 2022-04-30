@@ -6,14 +6,29 @@ p, h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
+.section {
+  display: flex;
+}
+
+.top-section {
+  display: flex;
+  overflow-x: scroll;
+}
+
+.top-article-box {
+  width: 180px;
+  flex-shrink: 0;
+}
+
+.top-article-box + .top-article-box {
+  margin-left: 8px;
+}
+
 .section-header {
   font-weight: 700;
   font-size: 14px;
+  margin-top: 36px;
   margin-bottom: 8px;
-}
-
-.topnews-section {
-  display: flex;
 }
 
 .article-box {
@@ -33,6 +48,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .news-title {
   font-size: 14px;
+  white-space: initial;
 }
 
 .provider-name {
